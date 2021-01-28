@@ -1,0 +1,349 @@
+/* ***********************************************************************************************
+
+   Created by Hyperchallenger.
+
+
+   ******************************************************************************************** */
+
+
+
+
+   @font-face {
+     font-family: 'Butler_Ultra_Light';
+     src: url('../fonts/Butler_Ultra_Light.otf') format('opentype');
+   }
+   @font-face {
+     font-family: 'Butler_Bold';
+     src: url('../fonts/Butler_Bold.otf') format('opentype');
+   }
+
+@font-face {
+  font-family: 'regular';
+  src: url('../fonts/pnr.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Butler_Black';
+  src: url('../fonts/Butler_Black.otf') format('opentype');
+}
+@font-face {
+  font-family: 'MontserratAlternates-Light';
+  src: url('../fonts/MontserratAlternates-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Butler_Light';
+  src: url('../fonts/Butler_Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Butler_Regular';
+  src: url('../fonts/Butler_Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Butler_Ultra_Light';
+  src: url('../fonts/Butler_Ultra_Light.ttf') format('truetype');
+}
+
+
+body{
+  background: #f7f7f7;
+}
+
+/**********Main Start ******/
+/********************/
+.header-btn{
+  background: #f78140 !important;
+    border-radius: 100px!important;
+    padding: 11px 25px!important;
+    color: #fff!important;
+    margin-left: 25px!important;
+}
+
+.main{
+  background-image: url(../img/bb4.jpg);
+  height: 676px;
+  background-size: cover;
+  background-position : top;
+}
+
+#uti{
+  letter-spacing: 1px;
+  color: #333;
+  font-family: Butler_Regular!important;
+  font-size: 20px;
+
+}
+
+.boss{
+  color: #000;
+  font-family:Butler_Bold!important;
+  font-size: 48px;
+}
+
+
+
+.main h1{
+  color: #000;
+  font-family: Butler_Ultra_Light!important;
+  font-size: 48px;
+}
+.main p{
+  font-family: regular!important;
+  color: #333;
+  font-size: 17px;
+  line-height: 29px;
+}
+.btn1 {
+  border: 1px solid #42dcdc;
+  padding: 15px 30px;
+  border-radius: 200px;
+  background: #42dcdc;
+  color: #fff;
+}
+/**********Main end ******/
+/********************/
+
+
+
+
+
+
+
+
+
+
+
+/**********who Start ******/
+/********************/
+
+
+
+.who {
+  padding: 80px 0px;
+  background: #fff;
+}
+
+.who h1{
+  color: #000;
+  font-family: Butler_Ultra_Light!important;
+  font-size: 48px;
+}
+
+
+.who p{
+  font-family: regular!important;
+  color: #333;
+  font-size: 17px;
+}
+
+
+.discover {
+  color: #000;
+  background: transparent;
+  border: 1px solid #000;
+  padding: 10px 20px;
+}
+
+.round {
+  border: 2px solid #000;
+  padding: 10px 20px;
+
+}
+
+
+#head {
+  font-size: 20px;
+  font-family: regular!important
+}
+
+/**********who end ******/
+/********************/
+
+
+
+
+
+
+
+
+
+/**********expertise start ******/
+/********************/
+
+
+
+.expertise {
+  padding: 120px 0px;
+  background: #f1f6ef;
+}
+
+
+.expertise h1{
+  color: #000;
+  font-family: Butler_Ultra_Light!important;
+  font-size: 48px;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********expertise end ******/
+/********************/
+
+
+
+
+/**********info startd ******/
+/********************/
+
+
+.info {
+  padding: 80px 0px;
+  background: #fff;
+}
+
+.box {
+  padding: 40px;
+  border: 1px solid #000;
+}
+
+.info h1{
+  text-align: center;
+  font-size: 25px;
+    font-family: Butler_Regular!important;
+}
+
+
+.box h1{
+  color: #42dcdc;
+  text-align: left;
+  font-family: Butler_Bold!important;
+}
+
+
+
+#para {
+  padding: 2px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**********info end ******/
+/********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********contact start ******/
+/********************/
+
+
+
+.contact {
+  padding: 80px 0px;
+  background: #f1f6ef;
+}
+
+.contact h1{
+  color: #000;
+  font-family: Butler_Ultra_Light!important;
+  font-size: 48px;
+}
+
+
+.contact p {
+  font-family: regular!important;
+  color: #333;
+  font-size: 20px;
+}
+
+
+
+
+
+.one {
+  padding: 0px 10px;
+    background: transparent;
+    border: 0px solid #e2e2e2;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    font-family: thin;
+    font-size: 27px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+
+}
+
+
+.dis {
+  color: #000;
+    background: transparent;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    font-family:Butler_Bold!important;
+
+}
+
+
+
+
+
+/**********contact end ******/
+/********************/
+
+
+
+
+
+
+
+
+
+.footer {
+  padding: 30px 0px;
+  background: #222;
+}
+
+.footer h1{
+  color: #fff;
+  font-size: 16px;
+}
+
+.hyper {
+  
+  font-family:Butler_Bold!important;
+  font-size: 16px;
+}
